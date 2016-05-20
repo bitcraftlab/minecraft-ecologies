@@ -2,7 +2,7 @@
 Connection c;
 
 void setup() {
-  c = new Connection(this, "enigma.medien.uni-weimar.de", 4711);
+  c = new Connection(this, "localhost", 4711);
 }
 
 void draw() {}

@@ -18,7 +18,7 @@ void setup() {
   text(msg, width/2, height/2);
   
   // connect to the server that runs minecraft
-  mc = Minecraft.connect("enigma.medien.uni-weimar.de");
+  mc = Minecraft.connect("localhost");
  
 }
 

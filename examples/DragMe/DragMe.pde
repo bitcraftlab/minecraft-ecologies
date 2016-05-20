@@ -16,7 +16,7 @@ void setup() {
   text("drag me!", width/2, height/2);
 
   // connect to the server that runs minecraft
-  mc = Minecraft.connect("ariadne.medien.uni-weimar.de");
+  mc = Minecraft.connect("localhost");
 }
 
 // we need a draw loop, otherwise there's no interaction!

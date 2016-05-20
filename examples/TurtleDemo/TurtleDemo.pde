@@ -20,7 +20,7 @@ void setup() {
   text("[R]emove", 20, 60);
 
   // connect to the server that runs minecraft
-  mc = Minecraft.connect("ariadne.medien.uni-weimar.de");
+  mc = Minecraft.connect("localhost");
   
 }
 
