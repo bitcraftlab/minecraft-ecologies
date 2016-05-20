@@ -45,7 +45,7 @@ Note: You can also use `telnet` to connect to minecraft and experiment with the 
 Here are some examples to created *3D geometry* using implicit geometry:
 
 * [Sphere](examples/Sphere)
-* [Cylinder](examples/PerformanceTest)
+* [Performance Test](examples/PerformanceTest)
 
 RaspberryJam comes with a lot of example scripts for [python 2](https://github.com/arpruss/raspberryjammod/tree/master/python2-scripts/mcpipy) and [python 3](https://github.com/arpruss/raspberryjammod/tree/master/python3-scripts/mcpipy).  
 Here is an example ported to Processing:  
