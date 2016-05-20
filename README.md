@@ -69,4 +69,4 @@ Once you have cloned the repo or downloaded the zip, you need to open a terminal
 
 * [MCPI Mod](https://github.com/kbsriram/mcpiapi)
 * [Raspberry Jam Mod](https://github.com/arpruss/raspberryjammod)
-* [Processing-Mod-Minecraft]((https://github.com/shiffman/Processing-Mod-Minecraft)
+* [Processing-Mod-Minecraft](https://github.com/shiffman/Processing-Mod-Minecraft)
