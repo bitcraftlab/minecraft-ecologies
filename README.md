@@ -17,8 +17,6 @@ To use modpacks create a new Minecraft instance in MultiMC, and chose import mod
 
 ## Examples ##
 
-### MCPI Examples ###
-
 These Processing examples include a copy of [MCPI.jar](mcpi/MCPI.jar).  
 This jar contains the code to connect to Minecraft via TCP as specified in the *Minecraft API*.  
 
@@ -33,16 +31,16 @@ The original Minecraft API + source code published by Minecraft can be found [he
 
 To create your own Processing sketches, just drag the jar onto your sketch, and Processing will automatically create a `code` folder inside your sketch and add the jar to it.
 
-#### Using the MCPI-API via TCP ####
+#### MCPI-API via TCP ####
 
 This example shows how to use Processing to talk to Minecraft via TCP directly.  
 Note: You can also use `telnet` to connect to minecraft and experiment with the API.
 
 * [Exodus](examples/Exodus)
 
-#### Generative Geometry with MCPI  ###
+#### Geometry with MCPI  ###
 
-Here are some examples to created *3D geometry* using implicit geometry:
+Here are some examples to created *3D geometry*:
 
 * [Sphere](examples/Sphere)
 * [Performance Test](examples/PerformanceTest)
@@ -56,10 +54,10 @@ Here is an example ported to Processing:
 
 We got a tracking system by the Captury with an OpenSoundControl plugin.  
 The OSC interface is still very much under development.  
-To connect to it you currently need a OSC proxy (implemented as a PureData patch).
+To connect it you currently need an OSC proxy (implemented as a PureData patch).
 The Processing sketches use the `oscP5` library.
 
-* [The Captury Proxy](tracking/the_captury_proxy.pd)
+* [The Captury Proxy](tracking/the_captury_proxy.pd) (PureData)
 * [The Captury Test](tracking/the_captury_test)
 * [The Captury to Minecraft](tracking/the_captury_to_minecraft)
 
