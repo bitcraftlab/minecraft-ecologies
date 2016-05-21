@@ -25,7 +25,7 @@ This jar contains the code to connect to Minecraft via TCP as specified in the *
 You can also download the jar [here](https://github.com/zhuowei/RaspberryJuice/raw/master/src/main/resources/mcpi/api/java/McPi.jar).  
 The original Minecraft API + source code published by Minecraft can be found [here](https://s3.amazonaws.com/assets.minecraft.net/pi/minecraft-pi-0.1.1.tar.gz).
 
-#### Examples ####
+#### MCPI Examples ####
 
 * [Drag Me](examples/DragME)
 * [Hello Pi](examples/HelloPi)
@@ -33,14 +33,14 @@ The original Minecraft API + source code published by Minecraft can be found [he
 
 To create your own Processing sketches, just drag the jar onto your sketch, and Processing will automatically create a `code` folder inside your sketch and add the jar to it.
 
-#### TCP Example ####
+#### Using the MCPI-API via TCP ####
 
 This example shows how to use Processing to talk to Minecraft via TCP directly.  
 Note: You can also use `telnet` to connect to minecraft and experiment with the API.
 
 * [Exodus](examples/Exodus)
 
-#### Examples II ###
+#### Generative Geometry with MCPI  ###
 
 Here are some examples to created *3D geometry* using implicit geometry:
 
@@ -51,6 +51,17 @@ RaspberryJam comes with a lot of example scripts for [python 2](https://github.c
 Here is an example ported to Processing:  
 
 * [Dragon Curve](examples/DragonCurve)
+
+#### Processing + Minecraft + Tracking ####
+
+We got a tracking system by the Captury with an OpenSoundControl plugin.  
+The OSC interface is still very much under development.  
+To connect to it you currently need a OSC proxy (implemented as a PureData patch).
+The Processing sketches use the `oscP5` library.
+
+* [The Captury Proxy](tracking/the_captury_proxy.pd)
+* [The Captury Test](tracking/the_captury_test)
+* [The Captury to Minecraft](tracking/the_captury_to_minecraft)
 
 
 ### Processing and the Forge ###
