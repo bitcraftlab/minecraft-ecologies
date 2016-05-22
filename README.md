@@ -78,6 +78,13 @@ Once you have cloned the repo or downloaded the zip, you need to open a terminal
 In our class we are using the IntelliJ Community Edition to create our Mods.  
 You can download it [here](https://www.jetbrains.com/idea/download/).
 
+#### Forge Modding Examples ####
+
+There is a very nice book by Aditya Gupta about *Minecraft Modding with Forge*.  
+All the examples can be found [here](https://github.com/AdityaGupta1/minecraft-modding-book).
+Use  `gradelew` as before!
+
+
 ## Links ##
 
 * [MCPI Mod](https://github.com/kbsriram/mcpiapi)
