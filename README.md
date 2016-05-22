@@ -73,6 +73,10 @@ To get a version that comes with Processing examples, check out Dan Shiffman's v
 
 Once you have cloned the repo or downloaded the zip, you need to open a terminal and install, decompile and setup everything with `gradelew` as described in the [README](https://github.com/shiffman/Processing-Mod-Minecraft/blob/master/Minecraft-Example-Mod/README.txt).
 
+#### Working with IntelliJ ####
+
+In our class we are using the IntelliJ Community Edition to create our Mods.  
+You can download it [here](https://www.jetbrains.com/idea/download/).
 
 ## Links ##
 
