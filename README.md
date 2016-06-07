@@ -64,7 +64,7 @@ The Processing sketches use the `oscP5` library.
 
 ### Processing and the Forge ###
 
-![](shiffman-screenshot.jpg)
+![](screenshots/shiffman-screenshot.jpg)
 
 
 If you want to create Mods using *the Forge* you need to install Eclipse or IntelliJ, and get the source of *the Forge*.
@@ -82,8 +82,11 @@ You can download it [here](https://www.jetbrains.com/idea/download/).
 
 There is a very nice book by Aditya Gupta about *Minecraft Modding with Forge*.  
 All the examples can be found [here](https://github.com/AdityaGupta1/minecraft-modding-book).
-Use  `gradelew` as before!
 
+* Clone [the Forge](https://github.com/MinecraftForge/MinecraftForge) to a new directory.
+* Use `gradelew` to set things up
+* Open the project in IntelliJ
+* Clone [the Examples](https://github.com/AdityaGupta1/minecraft-modding-book) from the book.
 
 ## Links ##
 
