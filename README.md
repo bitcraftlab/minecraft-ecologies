@@ -54,18 +54,30 @@ Here is an example ported to Processing:
 
 We got a tracking system by the Captury with an OpenSoundControl plugin.  
 The OSC interface is still very much under development.  
-To connect it you currently need an OSC proxy (implemented as a PureData patch).
+To connect it you currently need an OSC proxy (implemented as a PureData patch).  
 The Processing sketches use the `oscP5` library.
 
-* [The Captury Proxy](tracking/the_captury_proxy.pd) (PureData)
-* [The Captury Test](tracking/the_captury_test)
-* [The Captury to Minecraft](tracking/the_captury_to_minecraft)
+##### [The Captury Proxy](tracking/the_captury_proxy.pd) (PureData) 
 
+*This is a hack to pass OSC data between the Captury and Processing.*
+
+![](screenshots/pd-screenshot-1.png)
+![](screenshots/pd-screenshot-2.png)
+
+##### [The Captury Test](tracking/the_captury_test)
+
+*Testing OSC transmission between the Captury and Processing*
+
+##### [The Captury to Minecraft](tracking/the_captury_to_minecraft)
+
+The trail in the tracking volume is mapped to minecraft coordinates.  
+So we can leave a trail of water in the world of minecraft while moving on stage.
+
+![](screenshots/tracking-screenshot.gif)
 
 ### Processing and the Forge ###
 
 ![](screenshots/shiffman-screenshot.jpg)
-
 
 If you want to create Mods using *the Forge* you need to install Eclipse or IntelliJ, and get the source of *the Forge*.
 
